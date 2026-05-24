@@ -178,30 +178,31 @@ This model estimates expected energy consumption using peer-country benchmarks.
 ---
 
 energy-analysis/
-│── data/
+│
+├── data/
 │   ├── raw/
 │   └── processed/
 │
-│── notebooks/
-│   ├── 01_etl.ipynb
-│   
+├── notebooks/
+│   └── 01_etl.ipynb
 │
-│── sql/
+├── sql/
 │   ├── v_base.sql
-│   ├── a_analytics.sql
+│   └── a_analytics.sql
 │
-│── dashboards/
+├── dashboards/
 │   ├── energy_dashboard.pbix
-│   ├── screenshots/
-|   
-|── powerpoint/
-│   ├── powerpoit slide.pptx
-│   ├── pictures/
+│   └── screenshots/
 │
-│── README.md
-│── requirements.txt
-│── .gitignore
-│── .env.example
+├── powerpoint/
+│   └── powerpoint_slide.pptx
+│
+├── pictures/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+└── .env.example
 
 ---
 
