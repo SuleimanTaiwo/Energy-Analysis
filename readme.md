@@ -177,7 +177,7 @@ This model estimates expected energy consumption using peer-country benchmarks.
 
 ---
 
-energy-analysis/
+<pre> ```text energy-analysis/
 │
 ├── data/
 │   ├── raw/
@@ -202,7 +202,7 @@ energy-analysis/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-└── .env.example
+└── .env.example ``` </pre>
 
 ---
 
